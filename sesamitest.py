@@ -7,7 +7,7 @@ from Crypto.Cipher import AES
 # === あなたのセサミデバイス情報 ===
 device_id = '112004200708042468004900ffffffff'  # ハイフンなしのUUID
 secret_key = bytes.fromhex('77a9edef9f831ddb3313a2c805247b7a')  # 署名キー
-api_key = 'cnlLe6E8B92EFiugtLUAE2T627ddQ2A651jOd0nX'  # APIキー
+api_key = 'M13mLsBXOo4nQMkB0T4Gt5hze6iuJV4I8RA1feGc'  # APIキー
 cmd = 83  # 83=unlock, 82=lock, 88=toggle
 history = 'manual-test'  # 操作履歴として表示される文字
 
